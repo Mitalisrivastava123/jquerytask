@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h4>Validate the confirm password field on every character entered by the user.</h4>
+    <!-- Password Validation -->
+    <form method="post" class="form1">
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="password">Confirm Password:</label>
+        <br>
+        <input type="password"   name="password" id="confirmpassword">
+        <br>
+        <span id="msg1" class="message"></span>
+        <br>
+        <input type="button" name="submit" value="submit" id="btn1">
+    </form>
+    <hr>
+    <h4>Create a paragraph and pop-up a alert message "Clicked me" when you clicked inside paragraph.</h4>
+    <p id="para1">It is a long established fact that a reader will be distracted by the readable content of a page when
+        looking at its layout</p>
+    <br>
+    <hr>
+<h4>Create two buttons previous and next, above a image container element. On click images should be changed to previous one or next one accordingly.</h4>
+    <button type="button" id="prev" class="previousbtn">Previous</button>
+    <button type="button" id="next" class="nextbtn">Next</button>
+    <br>
+    <img src="img3.png" alt="image garden" id=img1 class="img1" style="display: none;" class="responsive" />
+    <img src="img2.png" alt="image garden" id="img2" class="img2" style="display:none;" class="responsive" />
+    <br>
+
+    <h4>When a user clicks submit button leaving any of the input blank, pop-up a alert informing user about blank field and set focus on that field along with changing its background color to red .</h4>
+    <form method="post" class="form2">
+        <label for="firstname">First name</label>
+        <br>
+        <input type="text" name="firstname" id="text1">
+        <br>
+        <label for="lastname">Last name</label>
+        <br>
+        <input type="text" name="lastname" id="text2">
+        <br>
+        <input type="button" name="submit" value="submit" id="submit">
+    </form>
+
+    <br>
+
+    <hr>
+<h4>Change the background color of all the even rows in the table to LightGrey and for odd rows to DodgerBlue when one of the button is clicked.</h4>
+    <button type="button" id="evenrow" >Color Even Rows</button> 
+    <button type="button" id="oddrow">Color Odd Rows</button>   
+
+  <table  class="table1">
+    <tr class="tr1">
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr class="tr1">
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Andres</td>
+      <td>Germany</td>
+    </tr>
+    <tr class="tr1">
+      <td>Berglunds snabbköp</td>
+      <td>Fransico Chang</td>
+      <td>Sweden</td>
+    </tr>
+    <tr class="tr1">
+      <td>Centro comercial Moctezuma</td>
+      <td>Roland Mendel</td>
+      <td>Mexico</td>
+    </tr>
+    <tr class="tr1">
+      <td>Ernst Handel</td>
+      <td>Helen Bennett</td>
+      <td>Austria</td>
+    </tr>
+    <tr class="tr1">
+      <td>Island Trading</td>
+      <td>Yoshi tanamuri</td>
+      <td>UK</td>
+    </tr>
+    <tr class="tr1">
+        <td>Magaziinie Alimuentri Riuniti</td>
+        <td>Giovanni Rovelli</td>
+        <td>Italy</td>
+      </tr>
+  </table>
+
+  <hr>
+<h4>Change the text color of first and last paragraph of each each element with "test" class, automatically after every 5 seconds.</h4>
+  <div class="test">
+    <p>Car Details</p>
+    <p>
+    In real life, a car is an object. A car has properties like weight and color, and methods like start and stop. All cars have the same properties, but the property values differ from car to car.</p>
+    <p>All cars have the same methods, but the methods are performed at different times.</p>
+    </div>
+    <div class="demo">
+    <p>Food Details</p>
+    <p>The seven food categories are</p>
+    <p>Vegetables, Fruits, Grains, legumes, nuts and seeds, Meat and poultry, Fish and seafood, Dairy foods, Eggs</p>
+    <p>Food sources from animals, birds, seafood and some plants provide protein that is the building blocks of cells</p>
+    </div>
+    <div class="test">
+    <p>Mobile Details</p>
+    <p>There are three categories of mobile phones: basic phones, feature phones, and smartphones.</p>
+    <p>Smartphones are equipped with a QWERTY keypad.</p>
+    </div>
+
+    <br>
+    <input type="text" name="name" value="" id="search">
+
+
+  <section class="users">
+
+</section>
+    <span id="suggestions"></span>
+    <script src="./script.js"></script>
+</body>
+
+</html>

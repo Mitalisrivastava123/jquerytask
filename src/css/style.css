@@ -1,0 +1,45 @@
+/* message class defined  */
+.message {
+    color: red;
+}
+
+.form1 {
+
+    background: #fff;
+    width: 300px;
+    padding: 10px;
+}
+
+.tr1
+{
+    padding:10px;
+}
+
+.img1 {
+    margin-top: 65px;
+}
+
+.img2 {
+    margin-top: 65px;
+}
+.form2
+{
+    margin-top:5%;
+}
+.table1
+{
+    border:none;
+    margin-top:20px;
+    border:1px solid black;
+}
+td
+{
+    border:none;
+    padding:7px;
+}
+th
+{
+    padding:7px;
+}
+
+
