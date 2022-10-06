@@ -2,65 +2,70 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <h4>Validate the confirm password field on every character entered by the user.</h4>
-    <!-- Password Validation -->
-    <form method="post" class="form1">
-        <label for="password">Password:</label>
-        <br>
-        <input type="password" name="password" id="password">
-        <br>
-        <label for="password">Confirm Password:</label>
-        <br>
-        <input type="password"   name="password" id="confirmpassword">
-        <br>
-        <span id="msg1" class="message"></span>
-        <br>
-        <input type="button" name="submit" value="submit" id="btn1">
-    </form>
-    <hr>
-    <h4>Create a paragraph and pop-up a alert message "Clicked me" when you clicked inside paragraph.</h4>
-    <p id="para1">It is a long established fact that a reader will be distracted by the readable content of a page when
-        looking at its layout</p>
+  <h4>Validate the confirm password field on every character entered by the user.</h4>
+  <!-- Password Validation -->
+  <form method="post" class="form1">
+    <label for="password">Password:</label>
     <br>
-    <hr>
-<h4>Create two buttons previous and next, above a image container element. On click images should be changed to previous one or next one accordingly.</h4>
-    <button type="button" id="prev" class="previousbtn">Previous</button>
-    <button type="button" id="next" class="nextbtn">Next</button>
+    <input type="password" name="password" id="password">
     <br>
-    <img src="img3.png" alt="image garden" id=img1 class="img1" style="display: none;" class="responsive" />
-    <img src="img2.png" alt="image garden" id="img2" class="img2" style="display:none;" class="responsive" />
+    <label for="password">Confirm Password:</label>
     <br>
-
-    <h4>When a user clicks submit button leaving any of the input blank, pop-up a alert informing user about blank field and set focus on that field along with changing its background color to red .</h4>
-    <form method="post" class="form2">
-        <label for="firstname">First name</label>
-        <br>
-        <input type="text" name="firstname" id="text1">
-        <br>
-        <label for="lastname">Last name</label>
-        <br>
-        <input type="text" name="lastname" id="text2">
-        <br>
-        <input type="button" name="submit" value="submit" id="submit">
-    </form>
-
+    <input type="password" name="password" id="confirmpassword">
     <br>
+    <span id="msg1" class="message"></span>
+    <br>
+    <input type="button" name="submit" value="submit" id="btn1">
+  </form>
+  <hr>
+  <h4>Create a paragraph and pop-up a alert message "Clicked me" when you clicked inside paragraph.</h4>
+  <p id="para1">It is a long established fact that a reader will be distracted by the readable content of a page when
+    looking at its layout</p>
+  <br>
+  <hr>
+  <h4>Create two buttons previous and next, above a image container element. On click images should be changed to
+    previous one or next one accordingly.</h4>
+  <button type="button" id="prev" class="previousbtn">Previous</button>
+  <button type="button" id="next" class="nextbtn">Next</button>
+  <br>
+  <img src="img3.png" alt="image garden" id=img1 class="img1" style="display: none;" class="responsive" />
+  <img src="img2.png" alt="image garden" id="img2" class="img2" style="display:none;" class="responsive" />
+  <br>
 
-    <hr>
-<h4>Change the background color of all the even rows in the table to LightGrey and for odd rows to DodgerBlue when one of the button is clicked.</h4>
-    <button type="button" id="evenrow" >Color Even Rows</button> 
-    <button type="button" id="oddrow">Color Odd Rows</button>   
+  <h4>When a user clicks submit button leaving any of the input blank, pop-up a alert informing user about blank field
+    and set focus on that field along with changing its background color to red .</h4>
+  <form method="post" class="form2">
+    <label for="firstname">First name</label>
+    <br>
+    <input type="text" name="firstname" id="text1">
+    <br>
+    <label for="lastname">Last name</label>
+    <br>
+    <input type="text" name="lastname" id="text2">
+    <br>
+    <input type="button" name="submit" value="submit" id="submit">
+  </form>
 
-  <table  class="table1">
+  <br>
+
+  <hr>
+  <h4>Change the background color of all the even rows in the table to LightGrey and for odd rows to DodgerBlue when one
+    of the button is clicked.</h4>
+  <button type="button" id="evenrow">Color Even Rows</button>
+  <button type="button" id="oddrow">Color Odd Rows</button>
+
+  <table class="table1">
     <tr class="tr1">
       <th>Company</th>
       <th>Contact</th>
@@ -92,41 +97,146 @@
       <td>UK</td>
     </tr>
     <tr class="tr1">
-        <td>Magaziinie Alimuentri Riuniti</td>
-        <td>Giovanni Rovelli</td>
-        <td>Italy</td>
-      </tr>
+      <td>Magaziinie Alimuentri Riuniti</td>
+      <td>Giovanni Rovelli</td>
+      <td>Italy</td>
+    </tr>
   </table>
 
   <hr>
-<h4>Change the text color of first and last paragraph of each each element with "test" class, automatically after every 5 seconds.</h4>
+  <h4>Change the text color of first and last paragraph of each each element with "test" class, automatically after
+    every 5 seconds.</h4>
   <div class="test">
     <p>Car Details</p>
     <p>
-    In real life, a car is an object. A car has properties like weight and color, and methods like start and stop. All cars have the same properties, but the property values differ from car to car.</p>
+      In real life, a car is an object. A car has properties like weight and color, and methods like start and stop. All
+      cars have the same properties, but the property values differ from car to car.</p>
     <p>All cars have the same methods, but the methods are performed at different times.</p>
-    </div>
-    <div class="demo">
+  </div>
+  <div class="demo">
     <p>Food Details</p>
     <p>The seven food categories are</p>
     <p>Vegetables, Fruits, Grains, legumes, nuts and seeds, Meat and poultry, Fish and seafood, Dairy foods, Eggs</p>
-    <p>Food sources from animals, birds, seafood and some plants provide protein that is the building blocks of cells</p>
-    </div>
-    <div class="test">
+    <p>Food sources from animals, birds, seafood and some plants provide protein that is the building blocks of cells
+    </p>
+  </div>
+  <div class="test">
     <p>Mobile Details</p>
     <p>There are three categories of mobile phones: basic phones, feature phones, and smartphones.</p>
     <p>Smartphones are equipped with a QWERTY keypad.</p>
-    </div>
+  </div>
 
-    <br>
-    <input type="text" name="name" value="" id="search">
+  <br>
+  <hr>
+  <h4>Create an array consisting names of some flowers. Add a textbox to suggest the flower names on every character
+    typed.</h4>
+  <input type="text" name="name" value="" id="search">
 
 
   <section class="users">
 
-</section>
-    <span id="suggestions"></span>
-    <script src="./script.js"></script>
+  </section>
+
+  <span id="suggestions"></span>
+  <hr>
+  <br>
+  <h4>Allow user to enter the details of 10th board. Also user can add details of 12th and graduation if he/she require.
+    Provide a button to add/delete any number of rows for qualification.</h4>
+  <table class="form-table" id="tablefield">
+    <tr>
+      <td>
+        <input type="text" class="code1" id="customFieldName" name="enter class" value="" placeholder="Enter class" />
+        &nbsp;
+        <input type="text" class="code1" id="customFieldValue" name="enter board" value="" placeholder="Enter board" />
+        &nbsp;
+        <input type="text" class="code1" id="customFieldValue" name="enter marks" value="" placeholder="Enter marks" />
+        &nbsp;
+        <input type="text" class="code1" id="customFieldValue" name="enter divison" value=""
+          placeholder="Enter divison" /> &nbsp;
+        <button type="button" class="addCF">+</button>
+        <button type="button" class="remCF">-</button>
+      </td>
+    </tr>
+  </table>
+  <hr>
+
+  <h4>Create a list that stores the products and their prices according to their size/color. when user selects a product
+    and its size/color show the appropriate price. accordin</h4>
+
+  <table class="table1" border="1">
+    <h4>Products</h4>
+    <tr class="tr1">
+      <th>Name</th>
+      <th>Size/Color</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Duffle Bag</td>
+      <td><select id="drop1">
+          <option value="small">small</option>
+          <option value="medium">medium</option>
+          <option value="large">large</option>
+        </select></td>
+        
+
+      <td>
+    
+        <span id="price1">1000/-</span>
+
+      </td>
+
+    </tr>
+
+
+
+    <tr>
+      <td>t shirts</td>
+      <td>
+        <select id="drop2">
+          <option value="lightgrey">Light Grey</option>
+          <option value="darkgrey">Dark Grey</option>
+          <option value="lightgreen">Light green</option>
+
+        </select>
+      </td>
+      <td>
+        <span id="price2">1200/-</span>
+      </td>
+    </tr>
+  </table>
+
+  <h3>Product List</h3>
+  <ul>
+    <li>Clothes<button type="button" id="clothes">+</button></li>
+    <li>Tshirts<button type="button" id="tshirts">+</button>
+      <table id="tablefield2"></table>
+    </li>
+    <li>Trousers<button type="button" id="trousers">+</button>
+      <table id="tablefield3"></table>
+    </li>
+  </ul>
+  <table id="tablefield1"></table>
+
+ <ul>
+  <li>Electronics<button type="button" id="electronics">+</button></li>
+  <li>Mobiles<button type="button" id="mobiles">+</button>
+    <table id="electro1"></table>
+  </li>
+  <li>Tabs<button type="button" id="tabs">+</button>
+  <table id="electro2"></table>
+  </li>
+ </ul> 
+ <table id="electronicsfield1"></table>
+
+
+
+
+
+
+
+  <script src="./script.js"></script>
+
+
 </body>
 
 </html>
