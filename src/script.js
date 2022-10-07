@@ -140,7 +140,7 @@ $(document).ready(function () {
             $("#price2").text("1400/-");
         }
     });
-
+// dynamic generation of subcategories
     $(document).on("click", ".clothes",function () {
         $("#tablefield1").append('<ul><a href="#"><li>Clothes<button type="button" class="clothes">+</button></li></a><ul><li class="one1"><a href="#">Tshirts<button type="button" class="tshirts">+</button></a></li></ul><ul><li class="one2"><a href="#">Trousers<button type="button" class="trousers">+</button></a></li></ul></ul>');
     });

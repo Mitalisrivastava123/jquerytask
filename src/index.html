@@ -10,22 +10,30 @@
 
 
   <link rel="stylesheet" href="css/style.css">
+  <!-- defining classes -->
   <style>
   .one1
   {
     list-style-type: circle;
+   
+    
   }
   .one2
   {
     list-style-type: circle;
+   
+   
   }
   .one3
   {
     list-style-type: circle;
+    
+    
   }
   .one4
   {
     list-style-type: circle;
+    
   }
   </style>
 </head>
@@ -33,6 +41,7 @@
 <body>
   <h4>Validate the confirm password field on every character entered by the user.</h4>
   <!-- Password Validation -->
+  <!-- form with keyup -->
   <form method="post" class="form1">
     <label for="password">Password:</label>
     <br>
@@ -52,6 +61,7 @@
     looking at its layout</p>
   <br>
   <hr>
+  <!-- images with previous next -->
   <h4>Create two buttons previous and next, above a image container element. On click images should be changed to
     previous one or next one accordingly.</h4>
   <button type="button" id="prev" class="previousbtn">Previous</button>
@@ -76,7 +86,7 @@
   </form>
 
   <br>
-
+<!-- background color changed of rows -->
   <hr>
   <h4>Change the background color of all the even rows in the table to LightGrey and for odd rows to DodgerBlue when one
     of the button is clicked.</h4>
@@ -222,54 +232,32 @@
       </td>
     </tr>
   </table>
-
+<h3>Create a list of products with sub-categories. When we click on  "+" button one more category can be added to the list in that category/sub-category.</h3>
   <h3>Product List</h3>
   <ul>
     <a href="#"><li>Clothes<button type="button" class="clothes">+</button></li></a>
-  
     <ul>
-
-     <a href="#"> <li class="one1">Tshirts<button type="button" class="tshirts">+</button></li></a>
-
-        
+     <a href="#"> <li class="one1">Tshirts<button type="button" class="tshirts">+</button></li></a>  
     </ul>
     <ul>
       <a href="#"><li class="one2">Trousers<button type="button" class="trousers">+</button></li></a>
-    </ul>
-    
-     
-    
+    </ul> 
   </ul>
   <table id="tablefield1"></table>
-
-
   <ul>
     <a href="#"><li>Electronics<button type="button" class="electronics">+</button></li></a>
-  
     <ul>
-
-     <a href="#"> <li class="one3">Mobiles<button type="button" class="mobiles">+</button></li></a>
-
-        
+     <a href="#"> <li class="one3">Mobiles<button type="button" class="mobiles">+</button></li></a>     
     </ul>
     <ul>
       <a href="#"><li class="one4">Tabs<button type="button" class="tabs">+</button></li></a>
-    </ul>
-    
-     
-    
+    </ul>    
   </ul>
-
   <table id="tablefield2"></table>
-
-
-
-
-
-
+  <!-- script start -->
   <script src="./script.js"></script>
 
-
+<!-- script end -->
 </body>
 
 </html>
