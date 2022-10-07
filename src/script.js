@@ -23,6 +23,7 @@ $(document).ready(function () {
     // image show and hide in button
     $("#prev").click(function () {
         $("#img1").show();
+        $("#img3")
         $("#img2").hide();
     });
     $("#next").click(function () {
@@ -140,29 +141,27 @@ $(document).ready(function () {
         }
     });
 
-    $("#clothes").click(function () {
-        $("#tablefield1").append('<ul><li>Clothes<button type="button">+</button></li><li>T shirts <button type="button" id="tshirts">+</button></li><li>Trousers <button type="button" id="trousers">+</button></li></ul>');
+    $(document).on("click", ".clothes",function () {
+        $("#tablefield1").append('<ul><a href="#"><li>Clothes<button type="button" class="clothes">+</button></li></a><ul><li class="one1"><a href="#">Tshirts<button type="button" class="tshirts">+</button></a></li></ul><ul><li class="one2"><a href="#">Trousers<button type="button" class="trousers">+</button></a></li></ul></ul>');
     });
-    $("#tshirts").click(function () {
-        $("#tablefield2").append('<ul><li>T shirts<button type="button" id="tshirts">+</button></li></ul>');
+    $(document).on("click",".tshirts",function () {
+        $(".one1").append("<ul><li class='one1'><a href='#'>Tshirts<button type='button' class='tshirts'>+</button></a></li></ul>");
     });
-
-    $("#trousers").click(function () {
-        $("#tablefield3").append('<ul><li>Trousers<button type="button" id="trousers">+</button></li></ul>');
-    });
-
-    $("#electronics").click(function () {
-        $("#electronicsfield1").append('<ul><li>Electronics<button type="button">+</button></li><li>Mobiles<button type="button">+</button></li></ul>');
-    });
-    $("#mobiles").click(function () {
-        $("#electro1").append('<ul><li>Mobiles<button type="button">+</button></li></ul>');
-    })
-    $("#tabs").click(function () {
-        $("#electro2").append('<ul><li>Tabs<button type="button">+</button></li></ul>');
+    $(document).on("click",".trousers",function () {
+        $(".one2").append("<ul><a href='#'><li class='one2'>Trousers<button class='trousers' type='button'>+</button></li></a></ul>");
     });
 
 
-
+    $(document).on("click", ".electronics",function () {
+        $("#tablefield2").append('<ul><a href="#"><li>Electronics<button type="button" class="electronics">+</button></li></a><ul><li class="one3"><a href="#">Mobiles<button type="button" class="mobiles">+</button></a></li></ul><ul><li class="one4"><a href="#">Tabs<button type="button" class="tabs">+</button></a></li></ul></ul>');
+    });
+    $(document).on("click",".mobiles",function () {
+        $(".one3").append("<ul><li class='one3'><a href='#'>Mobiles<button type='button' class='mobiles'>+</button></a></li></ul>");
+    });
+    $(document).on("click",".tabs",function () {
+        $(".one4").append("<ul><a href='#'><li class='one4'>Tabs<button class='tabs' type='button'>+</button></li></a></ul>");
+    });
+   
 });
 
 
